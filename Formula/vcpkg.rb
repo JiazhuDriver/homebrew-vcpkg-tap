@@ -3,7 +3,7 @@ class Vcpkg < Formula
   homepage "https://github.com/microsoft/vcpkg"
   url "https://github.com/microsoft/vcpkg.git",
       tag:      "2025.04.09", # You can pin a tag or use HEAD
-      revision: " ce613c41372b23b1f51333815feb3edd87ef8a8b"     # Optional: pin to a commit
+      revision: "ce613c41372b23b1f51333815feb3edd87ef8a8b"     # Optional: pin to a commit
   version "2025.04.09"
   head "https://github.com/microsoft/vcpkg.git", branch: "master"
 
