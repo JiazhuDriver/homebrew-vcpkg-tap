@@ -2,9 +2,9 @@ class Vcpkg < Formula
   desc "C++ Library Manager from Microsoft"
   homepage "https://github.com/microsoft/vcpkg"
   url "https://github.com/microsoft/vcpkg.git",
-      tag:      "2024.05.15", # You can pin a tag or use HEAD
-      revision: "abc1234"     # Optional: pin to a commit
-  version "2024.05.15"
+      tag:      "2025.04.09", # You can pin a tag or use HEAD
+      revision: " ce613c4"     # Optional: pin to a commit
+  version "2025.04.09"
   head "https://github.com/microsoft/vcpkg.git", branch: "master"
 
   depends_on "cmake" => :build
